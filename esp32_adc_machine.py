@@ -6,5 +6,5 @@ POT = ADC(Pin(34))
 POT.atten(ADC.ATTN_11DB)#Specifying the voltage of the  Analog sensor
 while True:
     pot_value  = POT.read()
-    print(pot_value)
+    print("Valor mostrat:", pot_value) #Text afegit al print
     sleep(0.1)
